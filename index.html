@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Cartão do Figma</title>
+    <style>
+        /* O CSS dá o visual: cores, tamanhos e posicionamento */
+        body {
+            background-color: #f0f2f5; /* Cor de fundo da tela inteira */
+            font-family: Arial, sans-serif; /* Tipo da letra */
+            display: flex;
+            justify-content: center; /* Centraliza o cartão deitados */
+            align-items: center;     /* Centraliza o cartão de pé */
+            height: 100vh;           /* Faz a tela usar toda a altura do monitor */
+            margin: 0;
+        }
+
+        .cartao {
+            background-color: #007bff; /* Fundo azul do seu cartão */
+            color: white;              /* Cor das letras */
+            width: 350px;              /* Largura do cartão */
+            padding: 30px;             /* Espaço interno para o texto não colar nas bordas */
+            border-radius: 12px;       /* Cantos arredondados, como no Figma */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Uma sombra leve no fundo */
+            text-align: center;        /* Centraliza o texto dentro do cartão */
+        }
+
+        .cartao h1 {
+            margin: 0 0 10px 0;        /* Controla o espaço em volta do título */
+            font-size: 28px;           /* Tamanho do texto Meu Nome */
+        }
+
+        .cartao p {
+            margin: 0;
+            font-size: 18px;           /* Tamanho do texto Sou estudante */
+            opacity: 0.9;              /* Deixa o texto sutilmente mais suave */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- O HTML cria a estrutura do cartão -->
+    <div class="cartao">
+        <h1>Meu Nome</h1>
+        <p>Sou estudante</p>
+    </div>
+
+</body>
+</html>
